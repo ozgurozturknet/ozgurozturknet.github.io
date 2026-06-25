@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Özgür Öztürk — Cloud Native Engineer & Consultant</title>
-<meta name="description" content="Senior Cloud Native Engineer specializing in Kubernetes, DevOps, and Cloud Architecture. Consulting, training, and platform engineering.">
+<title>Özgür Öztürk — Cloud Native Consultant & Trainer</title>
+<meta name="description" content="Senior Cloud Native Consultant & Trainer specializing in Kubernetes, DevOps, and Cloud Architecture.">
 <style>
   :root {
     --bg: #fafaf9;
@@ -35,9 +35,9 @@
   .nav-links a { color: var(--muted); font-size: 0.9em; }
   .nav-links a:hover { color: var(--text); text-decoration: none; }
 
-  .hero { padding: 120px 0 80px; }
+  .hero { padding: 100px 0 60px; }
   .hero h1 { font-size: 2.4em; font-weight: 700; line-height: 1.2; margin-bottom: 16px; }
-  .hero .subtitle { font-size: 1.2em; color: var(--muted); max-width: 600px; margin-bottom: 12px; }
+  .hero .subtitle { font-size: 1.2em; color: var(--muted); max-width: 640px; margin-bottom: 12px; }
   .hero .location { font-size: 0.95em; color: var(--muted); }
 
   h2 { font-size: 1.8em; font-weight: 700; margin-bottom: 32px; }
@@ -64,18 +64,31 @@
   .project-item .client { font-size: 0.85em; color: var(--accent); margin-bottom: 8px; }
   .project-item p { font-size: 0.9em; color: var(--muted); }
 
-  .contact-links { display: flex; gap: 24px; flex-wrap: wrap; }
-  .contact-links a { font-size: 1.1em; font-weight: 500; }
+  /* Contact ribbon at top */
+  .contact-ribbon { background: var(--card-bg); border-bottom: 1px solid var(--border); padding: 12px 0; font-size: 0.9em; }
+  .contact-ribbon .container { display: flex; gap: 20px; justify-content: flex-end; flex-wrap: wrap; }
+  .contact-ribbon a { color: var(--muted); }
+  .contact-ribbon a:hover { color: var(--accent); text-decoration: none; }
 
   footer { padding: 40px 0; text-align: center; font-size: 0.85em; color: var(--muted); }
 
   @media (max-width: 600px) {
     .hero h1 { font-size: 1.8em; }
     .nav-links { gap: 12px; }
+    .contact-ribbon .container { justify-content: center; }
   }
 </style>
 </head>
 <body>
+
+<div class="contact-ribbon">
+  <div class="container">
+    <a href="mailto:ozgur@ozgurozturk.net">📧 ozgur@ozgurozturk.net</a>
+    <a href="https://linkedin.com/in/ozgurozturknet">🔗 LinkedIn</a>
+    <a href="https://github.com/ozgurozturknet">💻 GitHub</a>
+    <a href="https://ayti.tech">🌐 Ayti.Tech</a>
+  </div>
+</div>
 
 <nav>
   <div class="container">
@@ -85,15 +98,14 @@
       <li><a href="#expertise">Expertise</a></li>
       <li><a href="#services">Services</a></li>
       <li><a href="#projects">Projects</a></li>
-      <li><a href="#contact">Contact</a></li>
     </ul>
   </div>
 </nav>
 
 <section class="hero">
   <div class="container">
-    <h1>Cloud Native Engineer & Consultant</h1>
-    <p class="subtitle">I help organizations build, run, and scale cloud-native platforms. Kubernetes, DevOps, and cloud architecture — hands-on, since 2005.</p>
+    <h1>Cloud Native Consultant & Trainer</h1>
+    <p class="subtitle">I help organizations build, run, and scale container platforms — whether it's public cloud, private data center, or hybrid. Kubernetes, DevOps, and cloud architecture. Hands-on, since 2005.</p>
     <p class="location">📍 Berlin, Germany</p>
   </div>
 </section>
@@ -102,7 +114,7 @@
   <div class="container">
     <h2>About</h2>
     <p style="max-width:640px;color:var(--muted);margin-bottom:16px;">
-      I'm a senior engineer with 15+ years in cloud infrastructure, platform engineering, and DevOps.
+      I'm a senior consultant and trainer with 15+ years in cloud infrastructure, platform engineering, and DevOps.
       I build Kubernetes platforms, design CI/CD pipelines, and help teams move faster without breaking things.
     </p>
     <p style="max-width:640px;color:var(--muted);margin-bottom:16px;">
@@ -134,8 +146,8 @@
     <h2>Services</h2>
     <div class="services-list">
       <div class="service-item">
-        <h3>🛠️ Cloud & Platform Consulting</h3>
-        <p>Architecture design, Kubernetes platform engineering, cloud migration, cost optimization.</p>
+        <h3>🛠️ Platform Consulting</h3>
+        <p>Architecture design, Kubernetes platform engineering, cloud & on-prem migration, cost optimization.</p>
       </div>
       <div class="service-item">
         <h3>🚀 DevOps Transformation</h3>
@@ -158,9 +170,15 @@
     <h2>Selected Projects</h2>
 
     <div class="project-item">
-      <h3>Service Platform — Kubernetes at Scale</h3>
-      <div class="client">Tangany (BaFin-regulated fintech) · 2024–Present</div>
-      <p>Designed and operate the Service Platform powering a regulated crypto custody platform. GitLab CI/CD, ArgoCD, Grafana/Prometheus, disaster recovery, on-call rotation. Full platform engineering lifecycle.</p>
+      <h3>Cloud & DevOps Infrastructure Management</h3>
+      <div class="client">Arebos / Siontech (Germany) · 2023–Present</div>
+      <p>Managing AWS and GCP cloud infrastructure for a German manufacturing firm. End-to-end DevOps services including CI/CD, monitoring, incident response, and infrastructure automation.</p>
+    </div>
+
+    <div class="project-item">
+      <h3>Cloud Infrastructure & DevOps Consulting</h3>
+      <div class="client">BEK (Bursa Ecza Kooperatifi) · 2023–Present</div>
+      <p>Cloud migration strategy, infrastructure modernization, and DevOps process design for one of Turkey's largest pharmaceutical cooperatives.</p>
     </div>
 
     <div class="project-item">
@@ -179,25 +197,6 @@
       <h3>Enterprise Container Adoption</h3>
       <div class="client">Docker · 2018–2020</div>
       <p>Guided strategic enterprise customers through Docker platform adoption. POCs, pilot implementations, C-level technical strategy.</p>
-    </div>
-
-    <div class="project-item">
-      <h3>DevOps Transformation — Bootcamp</h3>
-      <div class="client">Ayti.Tech · 2023</div>
-      <p>Built and delivered a 6-week intensive DevOps bootcamp for 25+ students covering Linux, Docker, Kubernetes, CI/CD, and cloud platforms. Generated the initial traction for Ayti.Tech.</p>
-    </div>
-  </div>
-</section>
-
-<section class="section" id="contact">
-  <div class="container">
-    <h2>Contact</h2>
-    <p style="color:var(--muted);margin-bottom:20px;">Open to consulting, training, and project-based work.</p>
-    <div class="contact-links">
-      <a href="mailto:ozgur@ozgurozturk.net">📧 ozgur@ozgurozturk.net</a>
-      <a href="https://linkedin.com/in/ozgurozturknet">🔗 LinkedIn</a>
-      <a href="https://github.com/ozgurozturknet">💻 GitHub</a>
-      <a href="https://ayti.tech">🌐 Ayti.Tech</a>
     </div>
   </div>
 </section>
