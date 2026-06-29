@@ -3,8 +3,8 @@ layout: default
 ---
 
 <div class="hero">
-  <h1>Özgür Öztürk</h1>
-  <p class="tagline">I help organizations build and operate cloud-native platforms — whether on public cloud, private data centers, or hybrid. Kubernetes, DevOps, and cloud architecture. Hands-on, since 2005.</p>
+  <img src="/assets/ozgur.jpg" alt="Özgür Öztürk" class="profile-pic">
+  <p class="tagline">I help organizations build and operate cloud-native platforms — whether on public cloud, private data centers, or hybrid. Kubernetes, DevOps, and cloud architecture.</p>
   <p class="location">📍 Berlin, Germany</p>
 </div>
 
@@ -12,7 +12,8 @@ layout: default
   <a href="mailto:ozgur@ozgurozturk.net">📧 Email</a>
   <a href="https://linkedin.com/in/ozgurozturknet">🔗 LinkedIn</a>
   <a href="https://github.com/ozgurozturknet">💻 GitHub</a>
-  <a href="https://youtube.com/@ozgurozturknet">▶️ YouTube</a>
+  <a href="https://www.youtube.com/@ayti.tech">▶️ YouTube</a>
+  <a href="https://www.udemy.com/user/zgrztrk3/">🎓 Udemy</a>
   <a href="https://ayti.tech">🌐 Ayti.Tech</a>
 </div>
 

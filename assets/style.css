@@ -63,3 +63,12 @@ footer { padding: 40px 0; text-align: center; font-size: 0.85em; color: var(--mu
   .nav-links { gap: 10px; }
   .hero h1 { font-size: 1.6em; }
 }
+
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+  border: 2px solid var(--border);
+}
