@@ -1,0 +1,7 @@
+title: Özgür Öztürk
+description: Cloud Native Consultant & Trainer — Berlin
+url: https://ozgurozturk.net
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag

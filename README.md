@@ -1,1 +1,0 @@
-# ozgurozturknet.github.io
