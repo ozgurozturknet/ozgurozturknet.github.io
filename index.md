@@ -31,8 +31,8 @@ layout: default
     <p>Kubernetes, Docker, Azure, DevOps. 25K+ Udemy students. 10K+ YouTube.</p>
   </div>
   <div class="service">
-    <h3>📝 Blog</h3>
-    <p>Thoughts on cloud-native, DevOps, and the craft of building platforms.</p>
+    <h3>🛡️ Platform Security</h3>
+    <p>RBAC design, container security, secrets management, compliance.</p>
   </div>
 </div>
 
