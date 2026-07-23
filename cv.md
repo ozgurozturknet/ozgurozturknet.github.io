@@ -5,7 +5,7 @@ title: CV
 
 # CV
 
-## Özgür Öztürk — Cloud Native Consultant & Trainer
+## Özgür Öztürk - Cloud Native Consultant & Trainer
 Berlin, Germany · ozgur@ozgurozturk.net
 
 ---
@@ -40,7 +40,7 @@ Senior Cloud Native consultant and trainer with 15+ years of experience across c
 
 ### Experience
 
-**Cloud Native Consultant & Trainer — Ayti.Tech** *(2023 – Present)*, Berlin
+**Cloud Native Consultant & Trainer - Ayti.Tech** *(2023 – Present)*, Berlin
 
 - Designed and delivered corporate training for Akbank, Siemens, Sunexpress (Kubernetes, Docker, DevOps)
 - Built a 6-month DevOps bootcamp (25+ students)
@@ -49,16 +49,16 @@ Senior Cloud Native consultant and trainer with 15+ years of experience across c
 - Cloud migration consulting for BEK (Bursa Ecza Kooperatifi)
 - Educational content: 10K+ YouTube subscribers, 25K+ Udemy students (4.85/5 rating)
 
-**Cloud Solution Architect — Microsoft** *(2020 – 2023)*, Berlin
+**Cloud Solution Architect - Microsoft** *(2020 – 2023)*, Berlin
 
 - Cloud-native architecture engagements for Mercedes, Lufthansa, PwC, Bayern
 - Specialized in AKS, microservices transformation, Azure DevOps
 
-**Solutions Architect — Docker** *(2019 – 2020)*, Berlin
+**Solutions Architect - Docker** *(2019 – 2020)*, Berlin
 
 - Enterprise Docker platform adoption, POCs, C-level strategy
 
-**Technical Relationship Manager (EMEA) — Docker** *(2018 – 2019)*
+**Technical Relationship Manager (EMEA) - Docker** *(2018 – 2019)*
 
 **Earlier:** HERE Technologies (2017–2018) · Vodafone (2011–2015) · Alstom/Marmaray (2007–2011) · BilgeAdam Trainer (2005–2006)
 

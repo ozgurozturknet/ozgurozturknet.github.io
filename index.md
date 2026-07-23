@@ -4,7 +4,7 @@ layout: default
 
 <div class="hero">
   <img src="/assets/ozgur.jpg" alt="Özgür Öztürk" class="profile-pic">
-  <p class="tagline">I help organizations build and operate cloud-native platforms — whether on public cloud, private data centers, or hybrid. Kubernetes, DevOps, and cloud architecture.</p>
+  <p class="tagline">I help organizations build and operate cloud-native platforms - whether on public cloud, private data centers, or hybrid. Kubernetes, DevOps, and cloud architecture.</p>
   <p class="location">📍 Berlin, Germany</p>
 </div>
 
