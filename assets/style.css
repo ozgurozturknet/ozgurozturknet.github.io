@@ -75,27 +75,15 @@ footer { padding: 40px 0; text-align: center; font-size: 0.85em; color: var(--mu
 
 .post-meta { font-size: 0.9em; color: var(--muted); }
 .post-excerpt { font-size: 0.9em; color: var(--muted); }
-.cv-page { max-width: 640px; }
-.cv-header { margin-bottom: 32px; }
-.cv-header .cv-name { font-size: 1.8em; font-weight: 700; margin: 0 0 4px; }
-.cv-header .cv-role { font-size: 1.1em; color: var(--muted); margin-bottom: 4px; }
-.cv-header .cv-contact { font-size: 0.9em; color: var(--muted); }
-.cv-page h2 { font-size: 1.15em; font-weight: 700; margin: 32px 0 12px; padding-bottom: 8px; border-bottom: 1px solid var(--border); }
-.cv-page h3 { font-size: 1em; font-weight: 600; margin: 0 0 2px; }
-.cv-page h4 { font-size: 0.85em; font-weight: 600; color: var(--muted); margin: 10px 0 2px; text-transform: uppercase; letter-spacing: 0.5px; }
-.cv-page ul { margin: 6px 0 0 20px; }
-.cv-page li { margin-bottom: 3px; font-size: 0.93em; line-height: 1.5; }
-.cv-page p { font-size: 0.95em; line-height: 1.6; color: var(--text); }
-.expertise-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px 32px; margin-bottom: 8px; }
-.expertise-grid h4 { margin-top: 14px; }
-.expertise-grid p { font-size: 0.88em; color: var(--muted); margin: 0; }
-.exp-item { margin-bottom: 20px; }
-.exp-item h3 { font-size: 1em; font-weight: 600; }
-.exp-item .exp-company { font-weight: 400; color: var(--accent); }
-.exp-item .exp-meta { font-size: 0.85em; color: var(--muted); margin-bottom: 4px; }
-.exp-earlier { margin-top: 8px; padding-top: 12px; border-top: 1px solid var(--border); }
-.exp-earlier strong { font-size: 0.9em; }
-.exp-earlier p { font-size: 0.85em; color: var(--muted); margin-top: 4px; }
-@media (max-width: 500px) {
-  .expertise-grid { grid-template-columns: 1fr; gap: 0; }
-}
+
+/* CV */
+.cv-page h2 { font-size: 1.6em; font-weight: 700; margin: 0 0 8px; }
+.cv-page h3 { font-size: 1.15em; font-weight: 600; margin: 32px 0 12px; padding-bottom: 6px; border-bottom: 1px solid var(--border); }
+.cv-page p { margin-bottom: 10px; line-height: 1.6; }
+.cv-page ul { margin: 4px 0 16px 20px; }
+.cv-page li { margin-bottom: 4px; line-height: 1.5; }
+.cv-page strong { color: var(--text); }
+.cv-page em { color: var(--muted); font-style: normal; }
+.cv-page table { width: 100%; border-collapse: collapse; margin: 8px 0 16px; }
+.cv-page td { vertical-align: top; padding: 4px 16px 8px 0; font-size: 0.93em; line-height: 1.5; }
+.cv-page td:first-child { width: 50%; }
